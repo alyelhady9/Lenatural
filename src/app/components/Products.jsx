@@ -3,10 +3,9 @@ import React from 'react'
 import Product1 from "../assets/Product1.jpg"
 import Product2 from "../assets/Product2.jpg"
 import Image from 'next/image'
-import { Span } from 'next/dist/trace'
-import { PiPlantFill } from "react-icons/pi";
 import ProductContent from './ProductContent'
 import Link from 'next/link'
+
 function Products() {
 
     const products = [

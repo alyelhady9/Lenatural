@@ -14,7 +14,7 @@ function HeroArea() {
 
                 <div className='text-center w-full flex items-center justify-center flex-col'>
                     <p className='text-base max-md:text-xs'>Your beauty from nature</p>
-                    <Image src={logo} className=' text-center w-[300px] max-md:w-[130px]'  />
+                    <Image alt='LeNatural logo' src={logo} className=' text-center w-[300px] max-md:w-[130px]'  />
                 </div>
                 
                 <div className='max-md:text-[10px] text-sm '>
@@ -23,13 +23,13 @@ function HeroArea() {
                 </div>
             </div>
             
-                <Image src={logo2} className='animate-spin-slow m-auto w-[140px] mt-8 max-md:mt-2 max-md:w-[50px]'  />
+                <Image alt='LeNatural logo' src={logo2} className='animate-spin-slow m-auto w-[140px] mt-8 max-md:mt-2 max-md:w-[50px]'  />
             
             <div className='text-center w-full text-[10px] max-md:mt-4 max-md:text-[7px]'>
 
                 <p>LeNatural offers completely natural and healthy products, free from any synthetic chemicals. Our skincare, haircare, and incense are crafted with pure ingredients to nourish and enhance your beauty. Embrace nature with LeNatural</p>
                 
-                <Image src={logo} className='m-auto w-[100px] mt-2 max-md:w-[50px]'  />
+                <Image alt='LeNatural logo' src={logo} className='m-auto w-[100px] mt-2 max-md:w-[50px]'  />
             </div>
 
           </div>
