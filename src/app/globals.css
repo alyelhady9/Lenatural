@@ -24,3 +24,56 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: linear; /* Start with linear speed */
+  }
+  50% {
+    transform: rotate(360deg);
+    animation-timing-function: ease-out; /* Slow down towards the middle */
+  }
+  90% {
+    transform: rotate(360deg);
+    animation-timing-function: ease-in; /* even slower towards the end */
+  }
+  100% {
+    transform: rotate(360deg);
+    animation-timing-function: steps(1); /* Stop completely at the end */
+  }
+}
+
+.animate-spin-slow:hover {
+  cursor: pointer;
+  animation: spin 2s 1 forwards;
+}
+
+
+@keyframes pulse {
+  0% {
+    font-size: 36px;
+  }
+  50% {
+    font-size: 48px;
+  }
+  100% {
+    font-size: 36px;
+  }
+}
+   
+/* @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+
+.pulse-link:hover {
+  animation: pulse 0.8s ease-in-out;
+}
