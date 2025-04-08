@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import pattern from '../assets/gradient2pattern.jpg'
 import logo from '../assets/lenaturalG.png'
-import logo2 from '../assets/lenaturalS.png'
+import logo2 from '../assets/LenaturalS.png'
 function HeroArea() {
   return (
     
